@@ -117,14 +117,7 @@ strong {
 	font-weight: 900;
 }
 
-.uvod a,
-.proc a,
-.musime_videt a,
-.fotogaleria a {
-	text-align: center;
-	text-decoration: none;
-	color: gray;
-}
+
 
 .cara {
 	border:none;
@@ -134,10 +127,38 @@ strong {
 	margin: 0;
 }
 
-
+.popisek,
+.popisek a {
+	color: grey;
+	font-size: 10px;
+	text-align: center;
+	margin: 0;
+	
+}
 
 
 
 @media (min-width:580px) {
+	.mrizka {
+		display: flex;
+		flex-wrap: wrap;
 
+	}
+
+	.mrizka__polozka {
+		width: 50%;
+	}
+
+}
+
+@media (min-width:960px) {
+	.mrizka {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.mrizka__polozka {
+		width: calc(100% / 3);
+	}
 }
