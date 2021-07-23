@@ -136,6 +136,13 @@ strong {
 	
 }
 
+.paticka,
+.paticka a  {
+	background-color: #f5f5f5;
+	color: grey;
+	text-align: left;
+	font-size: 10px;
+}
 
 
 @media (min-width:580px) {
